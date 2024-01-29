@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+body{
+    font-family: 'Poiret One', sans-serif;
+    overflow: hidden;
+    background: conic-gradient(from 90deg at 25% -10%, #ff4500, #d3f340, #7bee85, #afeeee, #7bee85);
+}
+.container{
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.digitalClock{
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
+}
+.digitalClock h1{
+    display: inline-block;
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.digitalClock{
+    text-align: center;
+    width: 100%;
+}
+.digitalClock h1{
+    /* display: block; */
+}
+#bar1, #bar2{
+    display: none;
+}
